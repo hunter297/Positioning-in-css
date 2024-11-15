@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .fixed{
+            position:fixed;
+            top: 600px;
+            right: 10px;
+            background-color:black;
+            padding: 30px;
+            font-size: 40px;
+            font-family: cursive;
+            color: red;
+        }
+
+        .sticky{
+            position: sticky;
+            bottom: 20px;
+            left:0;
+            font-size: 50px;
+            font-family:sans-serif;
+            padding: 30px;
+            background-color:black;
+            color: red;
+        }
+        .first{
+            position: relative;
+            height: 400px;
+            width: 400 px;
+        }
+        
+        .second{
+            position: absolute;
+            top:500px;
+            left: 500px;
+            color:red;
+            
+        }
+    </style>
+</head>
+<body style="background-color:black;opacity: 0.7;">
+    
+    <p class="fixed">Lord Tobirama</p>
+    <p class="sticky"> LORD TOBIRAMA</p>
+    <img src="index.jpeg" class="first"> 
+
+    <p class="second"> I AM TOBIRAMA</p>
+    
+
+</body>
+</html>
